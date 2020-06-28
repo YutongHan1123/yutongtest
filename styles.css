@@ -1,6 +1,15 @@
 /* * {
   width: 100%;
 } */
+@font-face {font-family: "911 Porscha";
+    src: url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.svg#911 Porscha") format("svg"); /* iOS 4.1- */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -35,7 +44,6 @@ header h1 {
   align-items: center;
   font-size: 6em;
   font-family: '911 Porscha';
-  src: url('911porscha/911porschav3.ttf');
   margin-top: -0.2em; margin-bottom: 0em;
   /* font-stretch: expanded; */
 }
