@@ -1,13 +1,11 @@
 /* * {
   width: 100%;
 } */
-@font-face {font-family: "911 Porscha";
-    src: url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/a67ec66880fec1d1a4333e21b2a0744b.svg#911 Porscha") format("svg"); /* iOS 4.1- */
+@font-face {
+  font-family: '911 Porscha';
+  font-style: normal;
+  font-weight: normal;
+  src: local('911 Porscha'), url('911v2.woff') format('woff');
 }
 
 body {
@@ -77,7 +75,7 @@ header h1:after {
 }
 
 .grey-part {
-  background-image: url("images/background.png");
+  background-image: url("../images/background.png");
   margin: 4%;
 }
 
