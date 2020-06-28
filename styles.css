@@ -117,6 +117,7 @@ header h1:after {
 .button {
   background-color: #b7b7b7;
   border: none;
+  border-radius: 10px;
   padding: 15px 32px;
   font-size: 5em;
   letter-spacing: .6em;
@@ -154,7 +155,7 @@ header h1:after {
 
   .gird-car {
     display: grid;
-    grid-template-columns: 3fr;;
+    grid-template-columns: 3fr;
   }
   .car {
     position: relative;
