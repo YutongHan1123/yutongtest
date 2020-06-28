@@ -154,7 +154,7 @@ header h1:after {
 
   .gird-car {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-columns: 3fr;;
   }
   .car {
     position: relative;
